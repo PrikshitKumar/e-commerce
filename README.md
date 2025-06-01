@@ -9,13 +9,19 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd React_E-Commerce
+  cd e-commerce
+```
+
+Clean dependencies and cache
+
+```bash
+rm -rf node_modules package-lock.json && npm cache clean --force
 ```
 
 Install dependencies
 
 ```bash
-  npm install
+  npm install --legacy-peer-deps
 ```
 
 Start the server
